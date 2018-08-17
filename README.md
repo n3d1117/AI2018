@@ -35,6 +35,12 @@ test(dataset)
 ```
 NOTE: `x` is the index of the attribute target used for classification.
 
+If you also want to plot the accuracy (requires matplotlib):
+```
+accuracy = test(dataset)
+plot_accuracies([accuracy], ["YOUR_DATASET_NAME"])
+```
+
 ## References
 - [UCI](https://archive.ics.uci.edu/ml/datasets/) - offers multiple free datasets. 
 - [aima-python](https://github.com/aimacode/aima-python) - provides most of the code for decision trees and cross validation used in this project.
